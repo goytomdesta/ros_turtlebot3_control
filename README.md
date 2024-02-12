@@ -12,15 +12,14 @@ Fig 2: Image of the Gazebo simulation environment instance
 
 ## Package Structure
 
-ros_turtlebot3_control/
+(```ros_turtlebot3_control/
 ├── CMakeLists.txt
 ├── launch/
-│   └── turtlebot3_control.launch # ROS launch files for starting the Gazebo simulation, navigation, and control modules.
+│   └── turtlebot3_control.launch   # ROS launch files for starting the Gazebo simulation, navigation, and control modules.
 ├── package.xml
 ├── README.md
 └── scripts/
-    └── NavigationPlannerNode.py # Python script for the navigation and obstacle avoidance. 
-
+    └── NavigationPlannerNode.py    # Python script for the navigation and obstacle avoidance.```)
  
  ### Prerequisites
  ROS Noetic installed on Ubuntu 20.04

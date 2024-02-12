@@ -1,0 +1,19 @@
+<?xml version="1"?>
+<launch>
+  <!-- Arguments -->
+  <arg name="model" default="waffle" doc="model type [burger, waffle, waffle_pi]"/>
+
+  <!--   Gazebo Module -->
+  <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_world.launch">
+    <arg name="model" value="$(arg model)" />
+  </include>
+
+  <!--   Navigation Module -->
+  <include file="$(find turtlebot3_navigation)/launch/turtlebot3_navigation.launch">
+    <arg name="model" value="$(arg model)" />
+  </include>
+
+  <!--   Navigation Planner and obstacle avoidance Module -->
+  <node pkg="ros_turtlebot3_control" name="navigation_planner" type="NavigationPlannerNode.py" cwd="node" />
+  
+</launch>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ros_turtlebot3_control</name>
+  <version>0.0.0</version>
+  <description>The ros_turtlebot3_control package</description>
+
+  <author>Goytom Gebreyesus</author>
+  <maintainer email="goytomdesta@gmail.com">Goytom Gebreyesus</maintainer>
+  <license>MIT</license>
+  <url type="repository">https://github.com/goytomdesta/ros_turtlebot3_control</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>move_base_msgs</build_depend>
+  <build_depend>turtlebot3_gazebo</build_depend>
+  <build_depend>turtlebot3_navigation</build_depend>
+</package>
+

@@ -3,10 +3,10 @@
 
 ## Overview
 ROS Turtlebot3 Control is a ROS package designed for controlling a Turtlebot3 robot in a Gazebo simulation environment. 
-![Screenshot](images/Rviz image.png)
+![Screenshot](Rviz image.png)
 Fig 1: Rviz image of the Turtlebot3 robot navigation
 
-![Screenshot](images/Gazebo image.png)
+![Screenshot](Gazebo image.png)
 Fig 2: Image of the Gazebo simulation environment instance
 
 
